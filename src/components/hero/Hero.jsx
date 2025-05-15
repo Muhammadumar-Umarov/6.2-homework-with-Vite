@@ -13,7 +13,7 @@ const Hero = () => {
                         <form action="" className='w-full rounded-[15px] bg-white flex items-center pt-[7px] pr-[8px] pb-[9px] pl-[19px]'>
                             <img src={searchIcon} alt="" className='mr-[16px]' />
                             <input type="text" placeholder='Find the best brands' className='flex-1 outline-0'/>
-                            <button className='text-[18px] bg-[#3858D6] rounded-[9px] text-white font-[poppins600] leading-[125%] w-[112px] h-[45px]'>Search</button>
+                            <button className='text-[18px] bg-[#3858D6] rounded-[9px] text-white font-[poppins600] leading-[125%] w-[112px] h-[45px] cursor-pointer hover:opacity-90 hover:bg-transparent hover:border hover:text-[#3858D6] transition'>Search</button>
                         </form>
                     </div>
                     <div>

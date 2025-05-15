@@ -11,6 +11,7 @@ const Main = () => {
         <Category/>
         <Title subtitle1={"Find your favourite smart watch."} title={"Our Latest Products"}/>
         <Products/>
+        
     </main>
   )
 }

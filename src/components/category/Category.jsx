@@ -5,7 +5,7 @@ const Category = () => {
   return (
     <section className='container mt-[73px] mb-[135px] flex justify-between gap-[20px]'>
       {CATEGORY?.map((el) => (
-            <div className='w-[354px] h-[239px] rounded-[22px] bg-[#F6F6F6] flex items-center justify-center gap-[26px]'>
+            <div key={el.id} className='w-[354px] h-[239px] rounded-[22px] bg-[#F6F6F6] flex items-center justify-center gap-[26px]'>
               <div>
                 <img src={el.image} alt="" />
               </div>

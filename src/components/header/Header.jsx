@@ -7,7 +7,7 @@ import shoppingCartIcon from "../../assets/Shopping Cart.svg"
 
 const Header = () => {
     return (
-        <header className='w-[1100px] flex items-center justify-between pt-[22px] pb-[21px] font-[poppins500] absolute z-10 mx-auto text-center ml-[355px]'>
+        <header className='w-[1100px] flex items-center justify-between pt-[22px] pb-[21px] font-[poppins500] absolute z-10 mx-auto text-center ml-[400px]'>
             <div>
                 <a href="#" className='flex items-center gap-[1px] text-white'>
                     <img src={logo} alt="logo"/>
@@ -18,7 +18,7 @@ const Header = () => {
             <nav>
                 <ul className='flex items-center gap-[27px] text-[#8B8E99]'>
                     {LINKS?.map((link, index) => (
-                        <li key={index}><a href="#"><span>{link}</span></a></li>
+                        <li key={index}><a className='transition hover:opacity-65' href="#"><span>{link}</span></a></li>
                     ))}
                 </ul>
             </nav>
