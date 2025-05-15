@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "poppins500";
+  src: url("./fonts/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: "poppins600";
+  src: url("./fonts/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: "poppins700";
+  src: url("./fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "inter";
+  src: url("./fonts/Inter-VariableFont_opsz\,wght.ttf");
+}
+
+.container{
+  max-width: 1100px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
